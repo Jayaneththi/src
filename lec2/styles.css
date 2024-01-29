@@ -1,0 +1,55 @@
+body{
+    max-width: 1000px 1400px;
+    background-image: url("background-image.jpg");
+}
+h1,h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+.btn{
+    background-color: blue;
+    border-color: blue;
+    color: aliceblue;
+    text-align: rigtht;
+}
+.btn:hover{
+    background-color: rgb(112, 46, 96);
+    border-color: rgb(112, 46, 96);
+    color: aliceblue;
+}
+
+.container-fluid{
+    background-color: transparent;
+    border-color: none;
+}
+.navbar-nav{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.navbar-nav .nav-link{
+    color: blue;
+    text-align: left;
+    padding-bottom:0.2rem;
+
+}
+.navbar-nav .nav-link:hover{
+    color: blueviolet;
+    text-decoration: none;
+    text-decoration-color: blueviolet;
+}
+.nav-item{
+    color: blue;
+    text-decoration: underline;
+
+}
+@media(min-width:500px){
+    .navbar-nav{
+        margin-left:0%;
+    }
+}
