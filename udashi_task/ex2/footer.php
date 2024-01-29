@@ -1,7 +1,7 @@
 <footer>
     <div class="row">
         <div class="col-sm-2">
-            <img class="footerLogo" src="images/Footer/Logo-4.png">
+            <img class="footerLogo" src="Images/Footer/Logo-4.png">
             
         </div>
         <div class="col-sm-1">

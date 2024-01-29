@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap'); 
+
+/*------body & common-----*/
+body{
+    font-family: oregano;
+    line-height: 1.7;
+}
+
+h1
+{
+    font-size: 46px;
+}
+
+a
+{
+    color: rgb(139, 92, 5);
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+h2,h3,h4,h5
+{    
+    color: rgb(100, 67, 15);
+}
+
+h6
+{
+    font-size: 22px;
+}
+
+/*button decoration*/
+.btn
+{
+    border-radius: 0;
+    padding: 5px 20px;
+}
+
+.btn-primary
+{
+    color:rgb(253, 253, 253);
+    font-weight: 500;
+    font-size: 16px;
+    border-color: none;
+    background-color: #4f3509;
+    border-radius: 40px;
+}
+
+.btn-primary:hover
+{
+    border-color:none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.btn-brand
+{
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    border-color: none;
+    background-color:#4f3509;
+    border-radius: 40px;
+    font-size: 24px;
+}
+
+h2
+{
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+p
+{
+    font-size: 20px;
+}
+
+
+/*----Body styles ends-------*/
+
+.menu-active
+{
+    color: antiquewhite;
+}
+
+.menu-active :hover
+{
+    color: wheat;
+}
+
+/*-----Hero pages-----*/
+.frontpage-h1
+{
+    padding-bottom: 30px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.hero-h2
+{
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.hero-h4
+{
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.bg-cover
+{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important; 
+}
+
+.carousel-control-prev,.carousel-control-next
+{
+    background-color: rgba(0,0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+.slide-1
+{
+    background: url(Images/HeroSection/heroImage.jpg);
+}
+
+.slide-2
+{
+    background: linear-gradient(rgba(128, 124, 124,0.2),rgb(166, 162, 162)), url(Images/HeroSection/slide2.jpeg);
+}
+
+.slide-3
+{
+    background: linear-gradient(rgba(193, 191, 191, 0.2),rgb(221, 211, 211)), url(Images/HeroSection/slide3.jpeg);
+}
+
+.slide-4
+{
+    background: linear-gradient(rgba(128, 124, 124,0.2),rgb(166, 162, 162)), url(Images/Menu/Malaysian.jpeg);
+}
+
+
+/*------Hero section ends------*/
+
+
+a :hover
+{
+    color: red;
+}
+
+img
+{
+    min-width: 100%;
+}
+
+
+
+
+/*-----About section style starts-------*/
+.aboutH1
+{
+    margin-top: 50px;
+}
+
+.about-content
+{
+    padding-top: 50px;
+    text-align: left;
+}
+
+.managementImage
+{
+    height: auto;
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */  
+    border-radius: 50%;
+}
+
+.followUs
+{
+    margin-top: 120px
+}
+
+.followUsIcon
+{
+    height: 50px;
+    width: auto;
+    border-radius: 100%;
+     margin-top: 100px; 
+}
+
+.about-bg
+{
+    background-image: url(Images/About/aboutBackground.jpg);    
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 820px;
+}
+
+.colgap
+{
+    padding-right: 50px;
+    padding-left: 80px;
+}
+
+/*-----About page styles ends here----*/
+
+/*------Menu section styles starts here--------*/
+
+.intro-text
+{
+    margin-bottom:40px;
+    text-align: center;
+    margin: 14px auto 0 auto;
+}
+
+.intro-text p
+{
+    max-width: 500px;
+    margin: 14px auto 0 auto;
+}
+
+.nav-pills .nav-link
+{
+    background-color: #4f3509;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    color:rgb(255, 255, 255);   
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills .nav-link 
+{
+    background-color: burlywood;
+    color: white;
+    font-weight: 20px;    
+}
+
+.menu-all-image
+{
+    height: 200px;
+    width:auto;
+    /*border-radius: 50%*/    
+}
+
+.menu-item .stars
+{
+    color: orange;
+}
+
+.shadow-on-hover
+{
+    transition: all 0.4s;
+}
+
+.shadow-on-hover:hover
+{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/*-----Menu section styles ends here----*/
+
+/*---- Services section styles starts here-----*/
+
+.container-services
+{
+    background-color: black;
+    height: 820px;
+    width:auto;
+    font-family: oregano;
+    color: aliceblue;
+    text-align: center;
+}
+
+ .logo 
+{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: oregano;
+    padding-top: 40px;
+    margin-bottom: 25px;
+}
+
+.cards
+{
+    width: 1200px;
+    margin: 40px auto;
+    padding-top: 60px;   
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 40px;
+   /* align-items: center;*/
+    justify-content: center;    
+}
+
+img, .image-button 
+{
+    width: 100%;
+    height: auto;
+    border-radius: 0%; /* Correct the border-radius value for a circular shape */
+    display: flex; /* Use 'flex' instead of '-ms-flexbox' */
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    transition: transform 0.2s; /* Add a smooth transition effect */
+} 
+
+/* Apply styles to image buttons when hovered */
+.image-button:hover 
+{
+    transform: scale(1.2); /* Increase the size by 20% on hover (adjust as needed) */
+}
+
+.service
+{
+    height: 820px;
+    width: auto;
+}
+/*--------ojoijeij to delete---------*/
+/* .container-contacts
+ {
+    padding: 0;
+    margin: 0;
+    background-image: url('im1.jpg');
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(160, 149, 144);
+    
+
+h1, h2 {
+        text-align: center;
+        color: brown;
+    }
+
+    .col-md-5 img {
+        width: 300px;
+        height: 600px;
+    }
+
+    .form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .three-col-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .three-col-grid img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+
+h1, h2 {
+    text-align: center;
+    color: brown;
+}
+img {
+    align-items: center;
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+    float:right;
+ 
+}
+
+.btn{
+    background-color: rgb(94, 12, 26);
+    border-color: rgb(49, 4, 4);
+    color:aliceblue;
+    text-align: right;
+}
+.btn:hover{
+    background-color: brown;
+    border-color: brown;
+
+
+.contact-info 
+{
+    text-align: center;
+    padding: 24px;
+}
+
+.four-col-grid {
+    display: grid;
+    align-items: center;
+}
+
+.form {
+    width: 50%;
+    margin-top: 40px;
+    padding: 60px;
+}
+
+.form-group,
+.form-control {
+    width: 50%;
+}
+
+.form-control {
+    background-color: burlywood;
+    border: 1px solid transparent;
+    padding: 16px;
+}
+
+.form-control:focus {
+    outline: 0;
+    border-color: brown;
+}
+
+}
+ }
+ */
+/*-------Footer styles starts here------*/
+
+footer
+{
+    background-image: url(images/Footer/footerBanner.png);    
+    color: rgb(242, 239, 235);
+    font-size: 12px;
+    height: 300px;
+    width: auto;
+    padding: 16px 24px 16px 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+.footer-icons
+{
+    height: 30px;
+    width: auto;
+    position: d;
+}
+
+.nav-item
+{
+    display: flex;
+    align-items: left;    
+}
+
+.nav-link
+{
+    padding:none;
+    color: white;
+    font-size: 24px;
+    position: relative;
+}
+
+.footerCornerImage
+{
+    height: 200px;
+    width: auto;
+}
+
+ .footerLogo
+{
+    margin-bottom: 20px;
+} 
+
+/*------------
+.contact-bg
+{
+    height: 350px;
+    width: 350px;
+}
+
+/* .container-contact
+{
+    background-image: url(Images/Contact/background.jpg);
+   
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} 
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.section-with-background
+{
+    background-image: url(Images/Contact/background_1.jpg);    
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 820px;
+    width: auto;
+}
+
+------------*/
+
+/*new contact form related*/
+
+/* .
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} */
+
+/* .contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(Images/About/aboutBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} */
+
+/* .contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .contact h2
+{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+} */
+
+/* .contact .content p
+{
+    font-weight: 300;
+    color: #fff;
+
+} */
+
+/* .containerContact
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+} */
+
+/* .containerContact .contactInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+} */
+
+/* .containerContact .contactInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+} */
+
+/* .containerContact .contactInfo .box .icons
+{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: ce;
+    border-radius: 50%;
+    font-size: 22px;
+} */
+
+.icons
+{
+    /* height: 40px;
+    width: auto; */
+    border-radius: 100%;
+    padding-right: 10px; 
+} 
+
+/* .containerContact .contactInfo .box .text .h3
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+
+} */
+
+/* .contactForm
+{
+    width:auto;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactForm h2
+{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+} 
+
+.contactForm .inputBox
+{
+    position: relative;
+    width:100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width:100%;
+    padding: 5px 0;
+    font-size:16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}*/
+
+.contactSection
+{
+    background: url(Images/About/aboutBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+
+
+
+
