@@ -1,10 +1,10 @@
-<?php $title = "Exercise2";
-$md= "Exercise2";
+<?php $title = "EX2";
+$md= "EX2 ";
 include "header.php"
 ?>
 
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt consequuntur nobis adipisci odit? Laboriosam assumenda maxime incidunt nobis, numquam exercitationem adipisci corporis pariatur sint obcaecati, natus nihil quos facere.</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, perferendis fuga. Eos accusamus omnis modi, consequuntur quaerat nisi, non impedit fuga itaque laudantium natus, recusandae magnam consectetur? Nostrum, asperiores at.</p>
 
 
 
-<?php include 'footer.php'?>
+ <?php include 'footer.php'?>
