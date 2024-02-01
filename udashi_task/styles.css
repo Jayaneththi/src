@@ -1,19 +1,19 @@
 
 body{
     max-width: 1000px 1400px;
-
+    background-image: url("background-image.jpg");
 }
 h1, h2, h3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
+
 .container-fluid{
-    background-color:aquamarine important;
-    border-color: none;
+    background-color:yellow !important;
+    border-color: yellow !important;
+
 }
-
-
-
 .navbar-nav{
     display: flex;
     align-items:center;
@@ -21,7 +21,7 @@ h1, h2, h3{
 }
 
 .navbar-nav .nav-link{
-    color: rgb(57, 15, 173);
+    color: blue;
     text-align: left;
     padding-bottom: 0.2rem;
 
@@ -41,17 +41,7 @@ h1, h2, h3{
         margin-left:20rem;
     }
 }
-
-.table-stripe {
-    background-color: #321010;
-  }
-
-  /* styles.css */
-.custom-navbar {
-    background-color: green;
-}
-
-.custom-navbar .navbar-toggler-icon {
-    background-color: white; /* Change the color of the toggler icon */
+.custom-navbarr {
+    background-color: pink; /* Set the background color to pink */
 }
 

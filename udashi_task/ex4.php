@@ -1,5 +1,5 @@
-<?php $title = "EX4";
-$md= "EX4 ";
+<?php $title = "Exercise4";
+$md= "Exercise4 ";
 include "header.php"
 ?>
 <h1>If-Else:</h1>

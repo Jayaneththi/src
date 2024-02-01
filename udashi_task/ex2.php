@@ -1,5 +1,5 @@
-<?php $title = "EX2";
-$md= "EX2 ";
+<?php $title = "Exercise2";
+$md= "Exercise2 ";
 include "header.php"
 ?>
 
