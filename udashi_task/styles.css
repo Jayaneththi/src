@@ -354,11 +354,10 @@ img, .image-button
 
 footer
 {
-    /*background-image: url("footerbanner.png");*/
-    background-color: #4f3509;   
+    background-image: url("footerbanner.png");
     color: rgb(69, 43, 9);
     font-size: 12px;
-    height: 300px;
+    height: 150px;
     width: auto;
     padding: 16px 24px 16px 24px;
     background-size: cover;
@@ -368,7 +367,7 @@ footer
 
 .footer-icons
 {
-    height: 30px;
+    height: 10px;
     width: auto;
     position: d;
 }
@@ -389,13 +388,18 @@ footer
 
 .footerCornerImage
 {
-    height: 200px;
+    height: 10px;
     width: auto;
 }
 
  .footerlogo
 {
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: aliceblue;
+    font-family: oregano;
+    
 } 
 
 .icons

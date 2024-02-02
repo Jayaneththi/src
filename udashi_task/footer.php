@@ -1,8 +1,8 @@
 <footer>
     <div class="row">
-        <div class="col-sm-2">
+        <div class="col-sm-1">
             <img class="footerlogo" src="logo-4.png">
-        <img src="footerbanner.jpg" alt="footerbanner">
+        
      </div>
 
         </footer> 
