@@ -26,7 +26,7 @@ h2,h3,h4
 
 h5
 {
-    color: rgb(174, 154, 126);
+    color: rgb(5, 5, 5);
 }
 
 h6
@@ -54,8 +54,8 @@ h6
 .btn-primary:hover
 {
     border-color:none;
-    background-color: #ffffff;
-    color: rgb(236, 229, 229);
+    background-color: #0e2a32;
+    color: rgb(228, 231, 238);
 }
 
 .btn-brand
@@ -419,9 +419,29 @@ footer
 
 
 /*---------*/
-/* Change color of navbar links on hover */
+
 .navbar-nav .nav-link:hover {
-    color: antiquewhite; /* Change to the desired color */
+    color: antiquewhite; 
 }
 
+/* styles.css */
+
+/* Define a custom color for table header */
+.table-header-color {
+    background-color: #337ab7; /* Blue color */
+    color: rgb(59, 21, 21); /* White text color */
+}
+
+/* Define a custom color for table rows */
+.table-row-color {
+    background-color: #0ca8c3; /* Light grey color */
+}
+footer{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: aliceblue;
+    font-family: oregano;
+}
 
