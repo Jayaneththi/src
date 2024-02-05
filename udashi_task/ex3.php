@@ -25,7 +25,7 @@ LastName:<input type="text" name="Lastname" required style=width:400px> <br><br>
     $g2=4;
     $g3=5;
     ?>
-    <table class="table table-striped" style="max-width: 600px;">
+    <table class="table table-success table-striped table-bordered table table-hover table-sm" style="max-width: 600px;">
     <thead class="table-header-color">
         <tr><th>S.n</th><th>Name</th> <th>Grade</th>
         <tr>
