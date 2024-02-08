@@ -39,6 +39,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Exercise5</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php">Exercise7</a>
+              </li>
              
             </ul>
             <a class="btn btn-primary" href="#menu">Order Online</a>
@@ -46,3 +49,5 @@
         </div>
       </nav>
       <!--Nav bar Ends-->
+
+    

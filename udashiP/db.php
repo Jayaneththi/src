@@ -1,11 +1,11 @@
 <?php
 $servername = "web-dev-env-main-db-1";
-$surename = "crudapp";
-$password = "Finland@1234";
-$dbname = "crudapp";
+$username = "root";
+$password = "password";
+$dbname = "udashi";
 
 // database connection 
-$conn = new mysqli($servername,$surename,$password,$dbname);
+$conn = new mysqli($servername,$username,$password,$dbname);
 
 //check connection
 if ($conn->connect_error){
