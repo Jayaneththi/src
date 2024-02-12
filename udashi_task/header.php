@@ -44,7 +44,8 @@
               </li>
              
             </ul>
-            <a class="btn btn-primary" href="#menu">Order Online</a>
+            <a class="btn btn-primary" href="read.php">Read Data</a>
+      
           </div>
         </div>
       </nav>

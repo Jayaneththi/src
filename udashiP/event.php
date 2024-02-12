@@ -2,6 +2,12 @@
 <form name="form1" method="post" action="process.php">
     <div class="form-group">
         <div class="row">
+
+            <div class="col">
+                <label for="member_id">Member ID:</label>
+                <input type="text" class="form-control" id="member_id" placeholder="Enter your Member ID" name="member_id" required>
+            </div>
+
             <div class="col">
                 <label for="first_name">First Name:</label>
                 <input type="text" class="form-control" id="first_name" placeholder="Enter your first name" name="first_name" required>

@@ -38,6 +38,8 @@ if ($result->num_rows > 0) {
     // Display a message if no results are found
     echo "No results";
 }
+
+
 // close the connection when done
 $conn->close();
 ?>

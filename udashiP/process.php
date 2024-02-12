@@ -3,6 +3,7 @@
 
 if (isset($_POST['submit']))
 {
+    $member_id= $_POST['member_id'];
     $first_name= $_POST['first_name'];
     $last_name= $_POST['last_name'];
     $phone_number= $_POST['phone_number'];
@@ -22,8 +23,8 @@ if (isset($_POST['submit']))
     include 'db.php';
 
     // write sql statment to insert data
-    $sql = "INSERT INTO event_booking (first_name, last_name, phone_number, email, select_room, number_of_guest, event_date, start_time, end_time, menu_style, event_status)
-        VALUES ('$first_name', '$last_name', '$phone_number', '$email', '$select_room', '$number_of_guest', '$event_date_formatted', '$start_time', '$end_time', '$menu_style', '$event_status')";
+    $sql = "INSERT INTO event_booking (member_id, first_name, last_name, phone_number, email, select_room, number_of_guest, event_date, start_time, end_time, menu_style, event_status)
+        VALUES ('$member_id','$first_name', '$last_name', '$phone_number', '$email', '$select_room', '$number_of_guest', '$event_date_formatted', '$start_time', '$end_time', '$menu_style', '$event_status')";
 
     if ($conn-> query($sql)===TRUE){
         echo "Your data was recorded";
