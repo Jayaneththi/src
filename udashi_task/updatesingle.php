@@ -28,7 +28,7 @@ if (isset($_GET['id'])) {
                 <label for="id">Student ID:</label>
             </div>
             <div class="col-sm-4">
-                <input type="text" class="form-control" id="id" name="id" value="<?php echo isset($row['id']) ? $row['id'] : ''; ?>" readonly>
+                <input type="text" class="form-control" id="id" name="id" value="<?php echo isset($row['id']) ? $row['id'] : ''; ?>">
             </div>
             <div class="col-sm-1">
                 <label for="first_name">First Name:</label>
@@ -55,16 +55,6 @@ if (isset($_GET['id'])) {
             </div>
         </div>
         <br>
-        <div class="form-group">
-            <div class="row">
-                <div class="col-sm-1">
-                    <label for="groupId">Group ID:</label>
-                </div>
-                <div class="col-sm-4">
-                    <input type="text" class="form-control" id="groupId" name="groupId" value="<?php echo isset($row['groupId']) ? $row['groupId'] : ''; ?>">
-                </div>
-            </div>
-        </div>
         
         <div class="row justify-content-center">
             <div class="col-sm-1 text-center">  
@@ -84,14 +74,13 @@ if (isset($_POST['submit'])) {
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
     $city = $_POST['city'];
-    $groupId = $_POST['groupId'];
+  
     
     $query = mysqli_query($conn, "UPDATE studentsinfo
                               SET 
                                   first_name = '$first_name',
                                   last_name = '$last_name',
-                                  city = '$city',
-                                  groupId = '$groupId'
+                                  city = '$city'
                               WHERE id='$id'");
 
     if (!$query) {
